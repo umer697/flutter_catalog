@@ -23,10 +23,10 @@ class MyApp extends StatelessWidget {
       darkTheme: ThemeData(
         brightness: Brightness.dark,
       ),
-      // debugShowCheckedModeBanner: false,
+      debugShowCheckedModeBanner: false,
       initialRoute: "/",
       routes: {
-        "/": (context) => loginPage(),
+        "/": (context) => homePage(),
         MyRoutes.homeRoute: (context) => homePage(),
         MyRoutes.loginRoute: (context) => loginPage(),
       },
